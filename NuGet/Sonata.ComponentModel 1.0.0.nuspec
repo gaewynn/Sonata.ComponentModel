@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Sonata.ComponentModel</id>
+    <version>$version$</version>
+    <title>Sonata.ComponentModel</title>
+    <authors>gaewynn</authors>
+    <owners>Sonata</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/Gaewynn/Sonata.ComponentModel</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/gaewynn/Sonata.ComponentModel/master/NuGet/sonata-componentmodel.png</iconUrl>
+    <description>Sonata.ComponentModel</description>
+    <summary></summary>
+    <copyright>Copyright @ 2018 Sonata</copyright>
+	<tags>gaewynn sonata component model</tags>
+    <language>en-US</language>
+    <dependencies>
+      <dependency id="Sonata.Diagnostics" version="1.0.0" />
+      <dependency id="System.ComponentModel.Annotations" version="4.4.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src=".\Sonata.ComponentModel\bin\$configuration$\netstandard2.0\Sonata.ComponentModel.dll" target="Sonata.ComponentModel.dll" />
+  </files>
+</package>

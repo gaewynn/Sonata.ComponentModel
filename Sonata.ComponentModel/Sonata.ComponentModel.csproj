@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>gaewynn</Authors>
+    <Company>Sonata</Company>
+    <Description>Sonata.ComponentModel</Description>
+    <Copyright>Copyright @ 2018 Sonata</Copyright>
+    <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/Gaewynn/Sonata.ComponentModel</PackageProjectUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/gaewynn/Sonata.ComponentModel/master/NuGet/sonata-componentmodel.png</PackageIconUrl>
+    <RepositoryUrl>https://github.com/Gaewynn/Sonata.ComponentModel</RepositoryUrl>
+    <RepositoryType>Github</RepositoryType>
+    <PackageTags>gaewynn sonata component model</PackageTags>
+    <NeutralLanguage>English (United States)</NeutralLanguage>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Sonata.Diagnostics" Version="1.0.0" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.4.1" />
+  </ItemGroup>
+
+</Project>
